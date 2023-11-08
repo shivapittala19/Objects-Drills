@@ -8,6 +8,8 @@ function values(obj){
         }
     }
     return array;
+
+    // return Object.values(obj)
 }
 
 const finalArray = values(testObject)

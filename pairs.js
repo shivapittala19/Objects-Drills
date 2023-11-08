@@ -8,6 +8,8 @@ function pairs(obj){
         }
     }
     return array;
+
+    // return Object.entries(obj)
 }
 
 const finalArray = pairs(testObject)

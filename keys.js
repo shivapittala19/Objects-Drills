@@ -6,6 +6,8 @@ function keys(obj) {
         array.push(key)
     }
     return array
+    
+    // return Object.keys(obj)
 }
 
 const finalArray = keys(testObject)
